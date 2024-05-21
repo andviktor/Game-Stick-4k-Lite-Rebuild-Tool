@@ -9,10 +9,11 @@ The tool is designed to organize the game library of console GameStick 4k lite. 
 2. Make sure that the ROM's names do not contain extra dots. **Only one dot is allowed followed by the file extension!**
 2. Clone this repository to the game console game folder using the **git clone https://github.com/andviktor/Game-Stick-4k-Lite-Rebuild-Tool** command.
 3. Go to the cloned repository folder.
-4. Activate the virtual environment with command **venv/scripts/Activate** on **Windows** and **source venv/bin/activate** on **Linux and Macos**
-5. Install the necessary packages using command **pip install -r requirements.txt**
-6. Change the configuration if necessary in the **.env file**
-7. Run the program with command **python rebuild.py**
+4. Create a virtual environment with command **python -m venv venv**
+5. Activate the virtual environment with command **venv/scripts/Activate** on **Windows** and **source venv/bin/activate** on **Linux and Macos**
+6. Install the necessary packages using command **pip install -r requirements.txt**
+7. Change the configuration if necessary in the **.env file**
+8. Run the program with command **python rebuild.py**
 
 ### Game covers:
 
@@ -31,10 +32,11 @@ Covers are often oriented vertically or have the wrong aspect ratio. In this cas
 2. Удостоверьтесь, что имена ромов не содержат лишних точек. **Допустима только одна точка после которой следует расширение файла!**
 2. Склонируйте данный репозиторий в папку **game** консоли при помощи команды **git clone https://github.com/andviktor/Game-Stick-4k-Lite-Rebuild-Tool**
 3. Перейдите в созданную папку репозитория.
-4. Активируйте виртуальное окружение командой **venv/scripts/Activate** на **Windows** или **source venv/bin/activate** на **Linux и Macos**
-5. Установите необходимые пакеты при помощи команды **pip install -r requirements.txt**
-6. Измените конфигурацию при необходимости в файле **.env**
-7. Запустите программу командой **python rebuild.py**
+4. Создайте виртуальное окружение командой **python -m venv venv**
+5. Активируйте виртуальное окружение командой **venv/scripts/Activate** на **Windows** или **source venv/bin/activate** на **Linux и Macos**
+6. Установите необходимые пакеты при помощи команды **pip install -r requirements.txt**
+7. Измените конфигурацию при необходимости в файле **.env**
+8. Запустите программу командой **python rebuild.py**
 
 ### Обложки игр
 

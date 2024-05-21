@@ -7,7 +7,7 @@ The tool is designed to organize the game library of console GameStick 4k lite. 
 ### How to use
 1. Download the ROMs to the appropriate folder inside the “game” folder on the micro SD card.
 2. Make sure that the ROM's names do not contain extra dots. **Only one dot is allowed followed by the file extension!**
-2. Clone this repository to the game console game folder using the **git clone** command.
+2. Clone this repository to the game console game folder using the **git clone https://github.com/andviktor/gamestick-rebuild** command.
 3. Go to the cloned repository folder.
 4. Activate the virtual environment with command **venv/scripts/Activate** on **Windows** and **source venv/bin/activate** on **Linux and Macos**
 5. Install the necessary packages using command **pip install -r requirements.txt**
@@ -29,7 +29,7 @@ Covers are often oriented vertically or have the wrong aspect ratio. In this cas
 ### Как пользоваться
 1. Загрузите ромы в папку соотв. консоли внутри папки **game** на микро sd карте.
 2. Удостоверьтесь, что имена ромов не содержат лишних точек. **Допустима только одна точка после которой следует расширение файла!**
-2. Склонируйте данный репозиторий в папку **game** консоли при помощи команды **git clone**
+2. Склонируйте данный репозиторий в папку **game** консоли при помощи команды **git clone https://github.com/andviktor/gamestick-rebuild**
 3. Перейдите в созданную папку репозитория.
 4. Активируйте виртуальное окружение командой **venv/scripts/Activate** на **Windows** или **source venv/bin/activate** на **Linux и Macos**
 5. Установите необходимые пакеты при помощи команды **pip install -r requirements.txt**

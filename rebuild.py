@@ -91,7 +91,9 @@ class Files:
         ]
         for filename in filenames:
             try:
-                name, extension = filename.split(".")
+                splitted = filename.split(".")
+                name = ".".join(splitted[:-1])
+                extension = splitted[-1]
             except ValueError as e:
                 print("Unpack file {} error: {}".format(filename, e))
 
@@ -289,7 +291,7 @@ def main():
                     )
                 )
                 db.cursor.execute(
-                    'INSERT INTO tbl_tw (en_id, en_title) VALUES ({}, "{}")'.format(
+                    'INSERT INTO tbl_tw (tw_id, tw_title) VALUES ({}, "{}")'.format(
                         game.id, game.name
                     )
                 )
